@@ -11,7 +11,7 @@ int main() {
    ball.print();    // Ball @ (1.10,2.20) with speed (3.30,4.40)
    ball.setX(5.5);
    ball.setY(6.6);
-   cout << "x is: " << ball.getX() << endl;  // x is 5.50
+   cout << "x is:: " << ball.getX() << endl;  // x is 5.50
    cout << "y is: " << ball.getY() << endl;  // y is 6.60
    ball.move();
    ball.print();    // Ball @ (8.80,11.00) with speed (3.30,4.40)
